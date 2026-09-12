@@ -1,3 +1,13 @@
+
+torch
+torchvision
+torchaudio
+
+# AutoML Engine (Vision + NLP Deep Learning Submodules)
+autogluon.multimodal
+
+scikit-learn<=1.5.2
+
 # Web App Framework
 streamlit>=1.30.0
 
@@ -7,9 +17,6 @@ Pillow>=10.0.0
 # Data Analysis
 pandas>=2.0.0
 
-# AutoML Engine (Vision + NLP Deep Learning Submodules)
-autogluon.multimodal
 
-torch
-torchvision
-torchaudio
+
+
