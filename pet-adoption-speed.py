@@ -11,7 +11,7 @@ st.title("🖼️ AutoGluon Vision + NLP Predictor")
 # 1. Cache the MultiModal Model
 @st.cache_resource
 def load_multimodal_model():
-    return MultiModalPredictor.load("AutogluonModels/ag-multimodal-model/")
+    return MultiModalPredictor.load("AutogluonModels/ag-20260912_153503/")
 
 try:
     predictor = load_multimodal_model()
@@ -21,13 +21,13 @@ except Exception as e:
 
 # 2. Define Preset Examples
 EXAMPLES = {
-    "Example 1: Cute Cat": {
-        "image_path": "sample_cat.jpg",
-        "text": "A fluffy orange cat sleeping on a sunny windowsill."
+    "Example 1: Cute Puppy": {
+        "image_path": "000a290e4-1.jpg",
+        "text": "went to teluk kumba kuanthai restaurant saw this female puppies alone by the beach.. Adopters must vaccinate, spay and keep puppy indoors/fenced Call/WhatsApp: Address: teluk kumba"
     },
-    "Example 2: Sports Car": {
-        "image_path": "sample_car.jpg",
-        "text": "A sleek red sports car driving down an empty highway."
+    "Example 2: Cute Cat": {
+        "image_path": "001b1507c-1.jpg",
+        "text": "A cute domestic short hair kitten looking for new home. She is Grey Baby Girl, about 2.5 months old now. She has thick & soft fur in grey & cream colour. She has beautiful dark grey eyes & a cute, fluffy tail. She is feeding on kibbles already, but sometimes we gave her wet food (canned fish) as treat. She is healthy, very active & playful. She loves to chase tiny insects in the house. She is under toilet (potty) training now & is ready to go at anytime. *RM 50 adoption fee would be paid to Cat Charity Club (CCC) for rescuing stray cats. *Another RM neutering / spaying deposit would be fully refundable once the surgery is done. Anyone interested, please call ."
     }
 }
 
