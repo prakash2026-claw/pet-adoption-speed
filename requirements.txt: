@@ -1,10 +1,12 @@
 
-torch
-torchvision
-torchaudio
+#torch
+#torchvision
+#torchaudio
 
 # AutoML Engine (Vision + NLP Deep Learning Submodules)
-autogluon.multimodal
+#autogluon.multimodal
+
+autogluon
 
 scikit-learn<=1.5.2
 
