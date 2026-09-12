@@ -1,7 +1,7 @@
 
-#torch
-#torchvision
-#torchaudio
+torch
+torchvision
+torchaudio
 
 # AutoML Engine (Vision + NLP Deep Learning Submodules)
 #autogluon.multimodal
